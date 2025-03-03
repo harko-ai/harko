@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { Program } from '@project-serum/anchor';
 
+
 const RecorderContainer = styled.div`
   display: flex;
   flex-direction: column;
